@@ -1,0 +1,58 @@
+.main-page{
+  padding:7%;
+
+}
+.product-image{
+  border-top-left-radius:25px;
+  border-bottom-left-radius:25px;
+}
+@media only screen and (max-width:790px)
+{
+  .product-image{
+    width: 344px;
+    height: 400px;
+    object-fit: cover;
+    border-bottom-left-radius:0;
+    border-top-right-radius: 25px;
+  }
+}
+
+
+.specification-area{
+  font-size:20px;
+  margin-right:90px;
+  width:auto;
+}
+.title-of-brand {
+  font-family: "Bell MT bold";
+  font-weight:bold;
+  font-size:50px;
+}
+.color-of-content{
+  color:#BBBBBB;
+  margin-right:5px;
+  font-size:35px;
+}
+
+
+.price-color{
+  color:#518e6b;
+  font-family: "Bell MT bold";
+  font-weight:800;
+  font-size:35px;
+  word-spacing:28px;
+}
+.cutout-price{
+  color:#BBBBBB;
+  font-weight: normal;
+  font-size: 14px;
+  text-decoration:line-through;
+}
+.button-color{
+  background-color:#518e6b !important;
+  border-color :#518e6b !important;
+  padding:3% 15%;
+}
+.button-color:hover{
+  background-color:#4fb06c !important;
+}
